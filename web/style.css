@@ -1,0 +1,58 @@
+
+.style_div div {
+    float: left; /*Задаем обтекание*/
+    line-height: 20px; /*Высота строки +  верт. центрирования текста*/
+    font-size: 20px;
+    background: #59c4d6;
+    color: white;
+    margin-top: 10px;
+    width: 110px; /*Фиксируем ширину блока*/
+    margin-right: 10px;
+    text-align-all: center;
+}
+
+.style_div label {
+    font-size: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.style_div input {
+    font-size: 14px;
+    max-width: 50px;
+    margin: 10px;
+}
+
+.clearfix { clear: both; }
+.clearfix button{
+    font-size: 18px;
+    width:90px;
+    margin-top: 20px;
+}
+
+.lux {
+    width: 300px;
+    border: 1px solid #6db5b1;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 20px;
+}
+
+.lux th {
+    background: #7fb0c8;
+    color: black;
+}
+.lux td {
+    border: 1px solid black;
+}
+.lux td, .lux th {
+    padding: 4px;
+    font-size: 20px;
+}
+.lux tr:nth-child(2n){
+    background: #b4e2e7;
+}
+.lux tr:nth-child(2n - 1) {
+    background: #59c4d6;
+}
